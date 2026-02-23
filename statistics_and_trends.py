@@ -40,7 +40,7 @@ def plot_categorical_plot(df):
         hue=top_entities.index,
         palette='viridis',
         legend=False
-    )
+                )
     plt.title('Top 10 Entities by Average Formal Education Rate')
     plt.xlabel('Entity (Country)')
     plt.ylabel('Average Education Rate (%)')
